@@ -1,0 +1,406 @@
+
+@media(min-width:0px) and (max-width:420px)
+{
+    .logo{
+        font-size: 10px;
+        font-weight: 300px;
+    }
+
+    header{
+        gap:7px;
+    }
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    #searchButton{
+        display: none;
+        /* align-items: center;
+        justify-content: center; */
+       /* margin:auto;
+       margin-right: 65%; */
+
+    }
+
+    .fa-search{
+        display:none;
+        /* align-items: center;
+        justify-content: center;
+        gap:10px;
+        margin-right: 65%; */
+
+    }
+
+    #searchInput{
+       width:60px;
+        
+    }
+
+    .search-container{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        /* width:65%; */
+        gap:7px
+    }
+
+    nav{
+        display:flex;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        gap:6px;
+    }
+
+    nav ul p{
+        font-size: 8px;
+    }
+
+    nav li a{
+        display: flex;
+        text-decoration:none;
+    }
+
+    .nav-icon{
+        display:flex;
+        font-size: 10px;
+            
+        
+    }
+
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .shop-now-button{
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50%;
+    }
+
+    .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .product-card {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        flex: 1 1 calc(90% - 10px);
+        margin-bottom: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+    }
+
+
+    .newsletter input {
+        padding: 8px;
+        font-size: 8px;
+        border: none;
+        border-radius: 4px;
+        width: 100px;
+        margin-right: 10px;
+    }
+
+    footer{
+        background-color: #282c34;
+        color: #fff;
+        /* padding: 40px; */
+        text-align: center;
+        
+        bottom: 0;
+        width: 100%;
+        
+    }
+}
+
+
+@media (min-width:420px) and (max-width:590px){
+
+    .logo{
+        font-size: 16px;
+        font-weight: 300px;
+    }
+    
+    
+        header{
+            gap:7px;
+        }
+    
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+    
+        #searchButton{
+            display: none;
+            /* align-items: center;
+            justify-content: center; */
+           /* margin:auto;
+           margin-right: 65%; */
+    
+        }
+    
+        .fa-search{
+            display:none;
+            /* align-items: center;
+            justify-content: center;
+            gap:10px;
+            margin-right: 65%; */
+    
+        }
+    
+        #searchInput{
+           width:130px;
+            
+        }
+    
+        .search-container{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            /* width:65%; */
+            gap:7px
+        }
+    
+        nav{
+            display:flex;
+            justify-content: space-around;
+        }
+    
+        nav ul{
+            gap:6px;
+        }
+    
+        nav ul p{
+            font-size: 10px;
+        }
+    
+        nav li a{
+            display: flex;
+            text-decoration:none;
+        }
+    
+        .nav-icon{
+            display:flex;
+            font-size: 10px;
+                
+            
+        }
+    
+        .hero{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            width:100%;
+    
+        }
+    
+        .hero-content p{
+            display: flex;
+            font-size: 8px;
+        }
+    
+        .hero h1 {
+            font-size: 12px;
+            font-weight: 400;
+            margin-bottom: 5px;
+            margin-left: 10px; 
+           
+            /* opacity: 100px; */
+        }
+    
+        .shop-now-button{
+            bottom: 0;
+        }
+    
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+    
+        .product-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            flex: 1 1 calc(75% - 20px);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+}
+
+@media(min-width:590px) and (max-width:768px){
+/* body{
+    overflow: hidden;
+} */
+
+.logo{
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+
+    /* header{
+        gap:20px;
+    } */
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #searchButton{
+        display: none;
+        /* align-items: center;
+        justify-content: center; */
+       /* margin:auto;
+       margin-right: 65%; */
+
+    }
+
+    .fa-search{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        margin-right: 65%;
+
+    }
+
+    #searchInput{
+        width: 300px;
+        
+    }
+
+
+
+    .search-container{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        /* width:65%; */
+        gap:20px
+    }
+
+    nav{
+        display:flex;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        gap:6px;
+    }
+
+    nav ul p{
+        font-size: 10px;
+    }
+
+    nav li a{
+        display: flex;
+        text-decoration:none;
+    }
+
+    .nav-icon{
+        display:flex;
+        font-size: 10px;
+            
+        
+    }
+
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width:100%;
+
+    }
+
+    .hero-content p{
+        display: flex;
+        font-size: 15px;
+    }
+
+    .hero h1 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        margin-left: 10px; 
+       
+        /* opacity: 100px; */
+    }
+
+    .shop-now-button{
+            font-size: auto;
+        bottom: 0;
+    }
+
+    .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .product-card {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        flex: 1 1 calc(50% - 20px);
+        margin-bottom: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+    }
+}
+
+@media (min-width:768px)and(max-width:991px) {
+    .logo {
+        
+        font-size: 18px;
+        font-weight: 500px;
+        letter-spacing: 1px;
+    }
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        gap: 105px;
+    }
+
+    #searchInput{
+        width: 250px;
+        
+    }
+}
+
+
+@media (min-width:991px)and(max-width:1024px){
+    
+}
